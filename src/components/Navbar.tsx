@@ -43,13 +43,13 @@ export default function Navbar() {
             >
               Features
             </Link>
-            <Link
+            {/* <Link
               href="#pricing"
               className="flex w-full items-center py-2 text-lg font-semibold"
               prefetch={false}
             >
               Pricing
-            </Link>
+            </Link> */}
             <Link
               href="#howitworks"
               className="flex w-full items-center py-2 text-lg font-semibold"

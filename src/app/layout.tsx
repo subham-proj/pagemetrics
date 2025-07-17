@@ -13,8 +13,50 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MongoChat",
-  description: "Chat with your MongoDB, Literally!",
+  title: "PageMetrics",
+  description: "Understand Your Website Like Never Before. PageMetrics is a privacy-first website analytics SaaS for actionable insights.",
+  openGraph: {
+    title: "PageMetrics",
+    description: "Understand Your Website Like Never Before. PageMetrics is a privacy-first website analytics SaaS for actionable insights.",
+    url: "https://usepagemetrics.netlify.app/",
+    siteName: "PageMetrics",
+    images: [
+      {
+        url: "/cover.png",
+        width: 1200,
+        height: 630,
+        alt: "PageMetrics Dashboard Screenshot",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "PageMetrics",
+    description: "Understand Your Website Like Never Before. PageMetrics is a privacy-first website analytics SaaS for actionable insights.",
+    images: ["/cover.png"],
+    site: "@PageMetrics",
+  },
+  metadataBase: new URL("https://usepagemetrics.netlify.app/"),
+  alternates: {
+    canonical: "/",
+  },
+  keywords: [
+    "website analytics",
+    "privacy analytics",
+    "SaaS analytics",
+    "page views",
+    "session tracking",
+    "referrer analytics",
+    "dashboard insights",
+    "PageMetrics",
+  ],
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+  },
 };
 
 export default function RootLayout({
@@ -24,6 +66,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="canonical" href="https://usepagemetrics.netlify.app/" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

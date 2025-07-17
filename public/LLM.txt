@@ -1,0 +1,14 @@
+PageMetrics is a privacy-first website analytics SaaS. 
+
+Purpose: Help website owners understand their traffic and user behavior with actionable insights.
+
+Main Features:
+- Real-time page view and session analytics
+- Referrer and traffic source tracking
+- Visitor location insights
+- Custom event tracking
+- Simple script integration
+- Interactive dashboard with charts and insights
+- GDPR-compliant, privacy-focused data collection
+
+For more, visit https://usepagemetrics.netlify.app/ 
