@@ -18,12 +18,12 @@ export default function Cover() {
         </p>
         <p className="text-black-900 dark:text-black-600">
           Track page views, sessions, referrers, visitor locations, and more. <br />
-          Gain actionable insights with PageMetrics' powerful analytics dashboard.
+          Gain actionable insights with PageMetrics&apos; powerful analytics dashboard.
         </p>
         <div className="flex space-y-4 md:space-y-0 flex-col items-center">
           <button
             onClick={() =>
-              window.open("https://trypagemetrics.netlify.app/login", "_blank")
+              window.open("https://trypagemetrics.netlify.app/signup", "_blank")
             }
             className="w-full md:w-60 px-4 py-3 text-green-600 font-semibold backdrop-blur-sm border border-black rounded-md hover:shadow-[0px_0px_4px_4px_rgba(0,0,0,0.1)] bg-white/[0.2] text-md transition duration-200 flex flex-row justify-center items-center"
           >

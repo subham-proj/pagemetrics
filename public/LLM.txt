@@ -11,4 +11,4 @@ Main Features:
 - Interactive dashboard with charts and insights
 - GDPR-compliant, privacy-focused data collection
 
-For more, visit https://usepagemetrics.netlify.app/ 
+For more, visit https://getpagemetrics.netlify.app/ 

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "PageMetrics",
     description: "Understand Your Website Like Never Before. PageMetrics is a privacy-first website analytics SaaS for actionable insights.",
-    url: "https://usepagemetrics.netlify.app/",
+    url: "https://getpagemetrics.netlify.app/",
     siteName: "PageMetrics",
     images: [
       {
@@ -38,9 +38,9 @@ export const metadata: Metadata = {
     images: ["/cover.png"],
     site: "@PageMetrics",
   },
-  metadataBase: new URL("https://usepagemetrics.netlify.app/"),
+  metadataBase: new URL("https://getpagemetrics.netlify.app/"),
   alternates: {
-    canonical: "/",
+    canonical: "https://getpagemetrics.netlify.app/",
   },
   keywords: [
     "website analytics",
@@ -68,7 +68,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://usepagemetrics.netlify.app/" />
+        <link rel="canonical" href="https://getpagemetrics.netlify.app/" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}

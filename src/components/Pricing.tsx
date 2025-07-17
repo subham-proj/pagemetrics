@@ -65,7 +65,7 @@ export default function Pricing() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
         {plans.map((plan, idx) => (
           <Card
-            key={plan.name}
+            key={idx}
             className={`flex flex-col items-center p-8 rounded-2xl shadow-lg border-2 transition-transform duration-200 ${
               plan.highlighted
                 ? "border-green-600 scale-105 bg-green-50 dark:bg-green-950"
